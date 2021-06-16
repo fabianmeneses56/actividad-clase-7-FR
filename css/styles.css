@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.titleheader {
+  background-color: #c4c4c4;
+  color: red;
+  text-align: center;
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+}
+.titleContenidoGeneral {
+  background-color: #c4c4c4;
+  color: red;
+  letter-spacing: 0.25em;
+  word-spacing: 0.25em;
+}
+#contenedorPrincipal {
+  margin: 80px;
+}
+.customText {
+  font-style: italic;
+  font-size: 15px;
+}
+.footerContainer {
+  background-color: #005677;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.textFooter {
+  color: #fff;
+  text-align: center;
+}
+.icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.harryPotterimg {
+  width: 150px;
+  height: 150px;
+}
+.contenedorImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.alineacion {
+  display: flex;
+}
