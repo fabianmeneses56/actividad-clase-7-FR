@@ -3,17 +3,19 @@
   font-family: 'Times New Roman', Times, serif;
 }
 .titleheader {
-  background-color: #c4c4c4;
-  color: red;
+  background-color: #3f51b5;
+  color: #fff;
   text-align: center;
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
+  /* object-fit: ; */
 }
 .titleContenidoGeneral {
-  background-color: #c4c4c4;
-  color: red;
+  background-color: #009688;
+  color: #fff;
   letter-spacing: 0.25em;
   word-spacing: 0.25em;
+  padding: 5px;
 }
 #contenedorPrincipal {
   margin: 80px;
@@ -23,7 +25,7 @@
   font-size: 15px;
 }
 .footerContainer {
-  background-color: #005677;
+  background-color: #3f51b5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,15 +40,56 @@
   margin-right: 10px;
 }
 .harryPotterimg {
-  width: 150px;
-  height: 150px;
+  width: 350px;
 }
 .contenedorImg {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
+  background-image: url('/img/3333.jpg');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .alineacion {
   display: flex;
+  text-decoration: none;
+}
+.img {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.imgPersonal {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+.containerImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.containerLista {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.icon {
+  color: #fff;
+  font-size: 23px;
+}
+a:visited {
+  color: #fff;
+}
+.containerBoton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.containerBoton {
+  padding: 10px;
+}
+.imgLagartos {
+  width: 350px;
 }
